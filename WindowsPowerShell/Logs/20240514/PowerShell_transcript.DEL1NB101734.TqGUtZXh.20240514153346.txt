@@ -1,0 +1,32 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240514153346
+Username: DEL1NB101734\FortyTwoAdminUser
+RunAs User: DEL1NB101734\FortyTwoAdminUser
+Configuration Name: 
+Machine: DEL1NB101734 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\/powershell.EXE -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command (new-object System.Security.Principal.WindowsPrincipal([System.Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)
+Process ID: 15288
+PSVersion: 5.1.19041.4291
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.4291
+BuildVersion: 10.0.19041.4291
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20240514153346
+**********************
+PS>(new-object System.Security.Principal.WindowsPrincipal([System.Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)
+True
+**********************
+Command start time: 20240514153346
+**********************
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20240514153346
+**********************
